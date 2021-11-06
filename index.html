@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="style.css" media="screen" />-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c6763f1795.js" crossorigin="anonymous"></script>
+    <title>Exercício - Sexta-feira</title>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ml-auto">
+              <a class="nav-link" href="#">1º Exerc.</a>  
+              <a class="nav-link" href="#2">2º Exerc.</a>  
+              <a class="nav-link" href="#3">3º Exerc.</a>  
+              <a class="nav-link" href="#4">4º Exerc.</a>  
+              <a class="nav-link" href="#5">5º Exerc.</a>  
+              <a class="nav-link" href="#6">6º Exerc.</a>  
+              <a class="nav-link" href="#7">7º Exerc.</a>  
+              <a class="nav-link" href="#8">8º Exerc.</a>  
+              <a class="nav-link" href="#9">9º Exerc.</a>  
+              <a class="nav-link" href="#10">10º Exerc.</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<main style="margin-top: 8%;">
+
+<div class="container-fluid row justify-content-md-center text-center">
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc1" >
+        <br>
+        <h3 class="text-center">Exercício 1</h3><br>
+        <p class="text-muted">Mudando a cor do fundo com botão ( Background )</p>
+
+            <button type="submit" class="btn btn-primary btn-sm" id="btnblue" onclick="UpdateColor('blue','exerc1')">Azul</button>
+            <button type="submit" class="btn btn-danger btn-sm" id="btnred" onclick="UpdateColor('red','exerc1')">Vermelho</button>
+            <button type="submit" class="btn btn-success btn-sm" id="btngreen" onclick="UpdateColor('green','exerc1')">Verde</button>
+            <button type="submit" class="btn btn-warning btn-sm" id="btnyellow" onclick="UpdateColor('yellow','exerc1')">Amarelo</button>
+            <button type="submit" class="btn btn-light btn-sm" id="btnwhite" onclick="UpdateColor('white','exerc1')">Branco</button>
+            <button type="submit" class="btn btn-dark btn-sm" id="btnblack" onclick="UpdateColor('black','exerc1')">Preto</button>
+          
+          <br><br>
+    </div>
+</div>
+<a name="2"></a>
+<br>
+<div class="container-fluid row justify-content-md-center text-center mt-5">    
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc2" >
+        <br>
+        <h3 class="text-center">Exercício 2</h3><br>
+        <p class="text-muted">Mudando a cor do fundo com links ( Background )</p>
+
+            <a href="#" type="button" class="btn btn-outline-primary btn-sm border-0" id="linkblue" onmouseover="UpdateColor('blue','exerc2')">Azul</a>
+            <a href="#" type="button" class="btn btn-outline-danger btn-sm border-0" id="linkred" onmouseover="UpdateColor('red','exerc2')">Vermelho</a>
+            <a href="#" type="button" class="btn btn-outline-success btn-sm border-0" id="linkgreen" onmouseover="UpdateColor('green','exerc2')">Verde</a>
+            <a href="#" type="button" class="btn btn-outline-warning btn-sm border-0" id="linkyellow" onmouseover="UpdateColor('yellow','exerc2')">Amarelo</a>
+            <a href="#" type="button" class="btn btn-outline-light btn-sm border-0" id="linkwhite" onmouseover="UpdateColor('white','exerc2')">Branco</a>
+            <a href="#" type="button" class="btn btn-outline-dark btn-sm border-0" id="linkblack" onmouseover="UpdateColor('black','exerc2')">Preto</a>
+          
+          <br><br>
+    </div>
+</div>
+<a name="3"></a>
+<br>
+<div class="container-fluid row justify-content-md-center text-center mt-5">
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc3" >
+        <br>
+        <h3 class="text-center">Exercício 3</h3><br>
+        <p class="text-muted">Mudando a cor do fundo Radio Button ( Background )</p>
+        <div class="input-group justify-content-md-center">
+            <div class="input-group-text bg-transparent border-0">
+              <input class="form-check-input mt-0 prima" type="radio" value="" aria-label="" name="option" onfocus="UpdateColor('blue','exerc3')">
+              <label class="text-primary">  Azul</label>
+            </div>
+            <div class="input-group-text bg-transparent border-0">
+                <input class="form-check-input mt-0 prima" type="radio" value="" aria-label="" name="option" onfocus="UpdateColor('red','exerc3')">
+                <label class="text-danger">  Vermelho</label>
+              </div>
+              <div class="input-group-text bg-transparent border-0">
+                <input class="form-check-input mt-0 prima" type="radio" value="" aria-label="" name="option" onfocus="UpdateColor('green','exerc3')">
+                <label class="text-success">  Verde</label>
+              </div>
+              <div class="input-group-text bg-transparent border-0">
+                <input class="form-check-input mt-0 prima" type="radio" value="" aria-label="" name="option" onfocus="UpdateColor('yellow','exerc3')">
+                <label class="text-warning">  Amarelo</label>
+              </div>
+              <div class="input-group-text bg-transparent border-0">
+                <input class="form-check-input mt-0 prima" type="radio" value="" aria-label="" name="option" onfocus="UpdateColor('white','exerc3')">
+                <label class="text-light" selected>  Branco</label>
+              </div>
+              <div class="input-group-text bg-transparent border-0">
+                <input class="form-check-input mt-0 prima" type="radio" value="" aria-label="" name="option" onfocus="UpdateColor('black','exerc3')">
+                <label class="text-dark">  Preto</label>
+              </div>
+          </div>
+          <br><br>
+    </div>
+</div>
+<a name="4"></a>
+<br>
+<div class="container-fluid row justify-content-md-center text-center mt-5">
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc4" >
+        <br>
+        <h3 class="text-center">Exercício 4</h3><br>
+        <p class="text-muted">Ocultando o parágrafo</p>
+        <div id="text"><p id="paragraph" class="m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias aliquam, a vero, molestiae unde natus animi id maxime fuga amet beatae illum repellendus repudiandae, odio delectus nihil dolorum. Alias, enim.
+        Vel, veritatis quaerat earum quia alias placeat? Dolor debitis enim maxime. Facere porro deserunt libero veritatis mollitia non tempora accusamus voluptatum sapiente similique exercitationem, repellendus saepe consectetur, amet tenetur. Porro!
+        Pariatur, aperiam? Rem accusantium expedita impedit unde culpa illum, quos, voluptate reprehenderit eveniet quasi sit, nihil et consequatur architecto ea veritatis quis dicta tenetur voluptatum sapiente sunt. Magnam, ea aliquam.
+        Deleniti maiores culpa neque dolorem repellat illo commodi numquam aliquid, sint id perspiciatis architecto modi soluta odit exercitationem qui molestiae? Error explicabo aut maiores cumque vitae reprehenderit consectetur beatae dignissimos.
+        Enim consectetur tenetur ipsam eum, sit facilis odit labore voluptatem beatae sequi fugit? Eaque voluptas nemo ea cupiditate nulla assumenda labore, sequi saepe nobis reprehenderit. Non cum quibusdam iusto nostrum.</p></div>
+        <br>
+        <button type="submit" class="btn btn-dark" id="enableDisable" onclick="EnableDisable('text')">Esconder</button>
+        <br><br>
+    </div>          
+</div>      
+<a name="5"></a>
+<br>
+<div class="container-fluid row justify-content-md-center mt-5">
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc5" >
+        <br>
+        <h3 class="text-center">Exercício 5</h3><br>
+        <p class="text-muted text-center">Formulário com checkBox<br>Necessário habilitar 2 checkBox para o Botão ficar disponível.</p>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="valueCheck1" onclick="DisableButton()">
+            <label class="form-check-label" for="">
+              Opção 1
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="valueCheck2" onclick="DisableButton()">
+            <label class="form-check-label" for="">
+              Opção 2
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="valueCheck3" onclick="DisableButton()">
+            <label class="form-check-label" for="">
+              Opção 3
+            </label>
+        </div><br>
+              <div id="buttonVisible" class="content-md-center" >
+              <button type="submit" class="btn btn-dark" id="Visible">Esconder</button>
+                </div>
+              <br><br>
+        </div>
+    </div>
+</div>
+<a name="6"></a><a name="7"></a><a name="8"></a>
+<br>
+<div class="container-fluid row justify-content-md-center text-center mt-5">
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc6" >
+        <br>
+        <h3 class="text-center">Exercício 6 , 7 e 8</h3><br>
+        <p class="text-muted">Modificando o parágrafo</p>
+        <div id="text2"><p id="paragraph2" class="m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias aliquam, a vero, molestiae unde natus animi id maxime fuga amet beatae illum repellendus repudiandae, odio delectus nihil dolorum. Alias, enim.
+        Vel, veritatis quaerat earum quia alias placeat? Dolor debitis enim maxime. Facere porro deserunt libero veritatis mollitia non tempora accusamus voluptatum sapiente similique exercitationem, repellendus saepe consectetur, amet tenetur. Porro!
+        Pariatur, aperiam? Rem accusantium expedita impedit unde culpa illum, quos, voluptate reprehenderit eveniet quasi sit, nihil et consequatur architecto ea veritatis quis dicta tenetur voluptatum sapiente sunt. Magnam, ea aliquam.
+        Deleniti maiores culpa neque dolorem repellat illo commodi numquam aliquid, sint id perspiciatis architecto modi soluta odit exercitationem qui molestiae? Error explicabo aut maiores cumque vitae reprehenderit consectetur beatae dignissimos.
+        Enim consectetur tenetur ipsam eum, sit facilis odit labore voluptatem beatae sequi fugit? Eaque voluptas nemo ea cupiditate nulla assumenda labore, sequi saepe nobis reprehenderit. Non cum quibusdam iusto nostrum.</p></div>
+        <br>
+        <div class="btn-toolbar justify-content-md-center" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="updateArial" onclick="ChangeFont('Arial')"><i class="fas fa-font"></i><br>Arial</button>
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="updateVerdana" onclick="ChangeFont('Verdana')"><i class="fas fa-font"></i><br>Verdana</button>
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="updateHelvetica" onclick="ChangeFont('Helvetica')"><i class="fas fa-font"></i><br>Helvética</button>
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="updateCandara" onclick="ChangeFont('Candara')"><i class="fas fa-font"></i><br>Candara</button>
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="updateTimes" onclick="ChangeFont('Times New Roman')"><i class="fas fa-font"></i><br>Times</button>
+            </div>    
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="darklight" onclick="DarkLight()"><i class="fas fa-adjust"></i><br>Dark</button>
+                
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="textUpper" onclick="TextTransform('uppercase')"><i class="fas fa-arrow-alt-circle-up"></i><br>Maiuscula</button>
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="textLower" onclick="TextTransform('lowercase')"><i class="fas fa-arrow-alt-circle-down"></i><br>Minuscula</button>
+                <button type="submit" class="btn btn-outline-dark btn-sm" id="textNone" onclick="TextTransform('none')"><i class="fas fa-check-circle"></i><br>Normal</button>
+            </div>
+        </div>
+        <br><br>
+    </div>
+</div>
+<a name="9"></a>
+<br>
+<div class="container-fluid row justify-content-md-center text-center mt-5">
+    <div class="col-6 m-2 rounded shadow-lg" id="exerc6" >
+        <br>
+        <h3 class="text-center">Exercício 9</h3>
+        <p class="text-muted">Faça o Login</p><br>
+        <div class="col">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Cadastro</h2><br>
+                <div class="mb-3">
+                  <label for="" class="form-label">Login</label>
+                  <input type="text" class="form-control" id="login" aria-describedby="emailHelp" required>
+                  <div id="" class="form-text">Insira o login.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" required>
+                  <div id="" class="form-text">Insira a senha de 6 a 8 caracteres.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Confirmação</label>
+                    <input type="password" class="form-control" id="confirmed" required>
+                    <div id="" class="form-text">Confirme a senha.</div><br>
+                </div>
+                <button type="" class="btn btn-outline-dark" onclick="ValidationLogin()">Enviar</button>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+<br>
+<a name="10"></a>
+<br>
+<div class="container-fluid row justify-content-md-center text-center mt-5">
+    <div class="col-10 m-2 rounded shadow-lg" id="exerc6" >
+        <br>
+        <h3 class="text-center">Exercício 10</h3>
+        <p class="text-muted">Cadastro</p><br>
+        <div class="col">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Cadastro</h2><br>
+              <form class="row g-3 text-lg-start" method="get" action="index.html?#10">
+                  <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="idPeople" id="selectCpf" value="cpf" onfocus="ValidationRegister('selectCpf','cpf')" checked>
+                    <label for="inputEmail4" class="form-label">Pessoa Física</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="idPeople" id="selectCnpj" value="cnpj" onfocus="ValidationRegister('selectCnpj','cnpj')">
+                    <label for="inputEmail4" class="form-label">Pessoa Jurídica</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="inputEmail4" class="form-label">CPF</label>
+                  <input type="text" class="form-control" id="cpf" placeholder="CPF" onkeyup="mascara('###.###.###-##',this,event,true)">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputPassword4" class="form-label">CNPJ</label>
+                  <input type="text" class="form-control" id="cnpj" placeholder="CNPJ" disabled onkeyup="mascara('##.###.###/####-##',this,event,true)">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputPassword4" class="form-label">Nascimento</label>
+                    <input type="date" class="form-control" id="nascimento" placeholder="" required>
+                  </div>
+                <div class="col-8">
+                  <label for="inputAddress" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                </div>
+                <div class="col-4">
+                  <label for="inputAddress" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Endereço</label>
+                  <input type="text" class="form-control" id="endereco" placeholder="Endereço" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="inputCity" class="form-label">CEP</label>
+                  <input type="text" class="form-control" id="cep" placeholder="CEP" onkeyup="mascara('#####-###',this,event,true)" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputCity" class="form-label">Telefone Res.</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Telefone" onkeyup="mascara('(##)####-####',this,event,true)" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="inputCity" class="form-label">Telefone Cel.</label>
+                  <input type="text" class="form-control" id="telefone" placeholder="Telefone" onkeyup="mascara('(##)#####-####',this,event,true)" required>
+                  <br>
+                </div>
+              
+                <div class="col-12">
+                  <button type="submit" class="btn btn-outline-dark">Cadastro</button>       
+                  <button type="reset" class="btn btn-outline-danger">Limpar</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+<br>
+</main>
+<div class="container-fluid">
+<footer class="pb-1 mb-2 fixed-bottom">
+    <div class="d-flex align-items-center text-dark text-decoration-none">
+      <span class="display-6">    Roberto Silva</span>
+    </div>
+</footer>
+</div>
+</body>
+</html>
